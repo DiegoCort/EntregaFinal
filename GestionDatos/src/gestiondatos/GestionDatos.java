@@ -10,8 +10,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class GestionDatos {
-
-
    public void ingresar(String cadena) throws IOException{
        try{
            FileWriter archivo = new FileWriter("Datos.txt", true);
